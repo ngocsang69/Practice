@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		*{
+			font-family: toboco;
+			text-align: center;
+		}
+		body{
+			width: 90%;
+			margin: 0 auto;
+		}
+		li{
+			display: inline;
+			padding: 5px;
+		}
+		div{
+			color:gray;
+		}
+		.article1,.article2,.article3{
+			width: 30%;
+			float:left;
+			margin: 1%;
+			background-color:#cbdede;
+			border:solid;
+
+		}
+		.feature{
+			overflow: hidden;
+		}
+		.logo,.feature{
+			background-color: #f3f7f7;
+		}
+		.nav,.footer{
+			background-color: #bbbdbd;
+		}
+
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	<div class="container grid_12">
+		<h1 class='logo'>Logo</h1>
+		<ul class='nav'>
+			<li><a href="">Home</a></li>
+			<li><a href="">Product</a></li>
+			<li><a href="">Services</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+		<div class="feature">
+			<p>feature</p>
+			<div class="article1 grid_3">One</div>
+			<div class="article2 grid_3">Two</div>
+			<div class="article3 grid_3">Three</div>
+		</div>
+		<div class="footer">Copyright 2011</div>
+	</div>
+</body>
+</html>
